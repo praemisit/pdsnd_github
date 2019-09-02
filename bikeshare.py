@@ -275,8 +275,8 @@ def main():
                 row_counter+=5
             else:
                 break
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nIf you want to restart the script, please type y or yes. Otherwise just type return.\n')
+        if restart.lower() != 'yes' and restart.lower() != 'y':
             break
 
 
