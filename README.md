@@ -1,19 +1,22 @@
 ### Date created
-Include the date you created this project and README file.
+Project created from July 2019 to September 2019.
 
 ### Project Title
-Replace the Project Title
+Bikeshare Module
 
 ### Description
-Describe what your project is about and what it does
+This module explores data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington.
 
 ### Files used
 The bikeshare.py script used the following files as input:
+
 1: "chicago.csv"
+
 2: "new_york_city.csv"
+
 3: "washington.csv"
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+All credits go to Udacity and all their lecturers.
 
