@@ -5,8 +5,8 @@ New York City, and Washington.
 The module was developed as part of the Udacity nanodegree 
 "Programming for Data Science".
 
-Author: Bertram Kaup
-Email: Bertram.Kaup@bayer.com
+Author: Thankful Udacity trainee
+
 
 Required input files: 'chicago.csv', 'new_york_city.csv', 'washington.csv' 
 """
