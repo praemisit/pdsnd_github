@@ -28,7 +28,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some US bikeshare data from Chicago, New York City or Washington!')
 
     # Get user input for which city (chicago, new york city, washington) the analysis shall be done.
     while True:
@@ -269,14 +269,14 @@ def main():
         # Show raw data if the user likes
         row_counter = 0
         while True:
-            show_raw_data = input("\nDo you want to see some raw? Enter yes or no.\n")
-            if show_raw_data.lower() == 'yes':
+            show_raw_data = input("\nIf you want to see some raw data, please type y or yes. Otherwise just type return.\n")
+            if show_raw_data.lower() == 'yes' or show_raw_data.lower() == 'y':
                 print(df.iloc[row_counter:row_counter+5])
                 row_counter+=5
             else:
                 break
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nIf you want to restart the script, please type y or yes. Otherwise just type return.\n')
+        if restart.lower() != 'yes' and restart.lower() != 'y':
             break
 
 
