@@ -269,8 +269,8 @@ def main():
         # Show raw data if the user likes
         row_counter = 0
         while True:
-            show_raw_data = input("\nDo you want to see some raw? Enter yes or no.\n")
-            if show_raw_data.lower() == 'yes':
+            show_raw_data = input("\nIf you want to see some raw data, please type y or yes. Otherwise just type return.\n")
+            if show_raw_data.lower() == 'yes' or show_raw_data.lower() == 'y':
                 print(df.iloc[row_counter:row_counter+5])
                 row_counter+=5
             else:
